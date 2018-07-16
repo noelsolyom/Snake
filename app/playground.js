@@ -19,7 +19,7 @@ class Playground {
     }
 
     this.setSize();
-    this.snake = new Snake(5, this.tiles);
+    this.snake = new Snake(5, this.tiles, this);
     this.generateFood();
   }
 
